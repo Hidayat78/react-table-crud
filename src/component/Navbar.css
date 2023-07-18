@@ -1,0 +1,65 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    background-color: #0082e6;
+    height: 70px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+nav ul li h2 {
+    margin-top: 15px;
+}
+
+.icon {
+    padding-left: 40px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 22px;
+    background-color: white;
+    background-origin: padding-box;
+    background-position: left 10px bottom 4px;
+    outline: none;
+    height: 35px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+@media(max-width:858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+    }
+}

@@ -1,0 +1,46 @@
+.tabl {
+    display: flex;
+
+}
+
+thead {
+    color: rgb(3, 3, 3);
+    font-size: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
+
+td.btn {
+    display: flex;
+    border: none;
+}
+
+td button {
+    border: none;
+    padding: 13px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+
+}
+
+td button:hover {
+    box-shadow: 0 2px 5px 1px rgba(64, 60, 67, .16);
+}
+
+.btn {
+    display: flex;
+    gap: 20px;
+    margin-left: 40%;
+    margin-top: 20px;
+    font-size: 22px;
+
+}
+
+.fa-pencil {
+    color: #0082e6;
+}
+
+.fa-trash {
+    color: red;
+}

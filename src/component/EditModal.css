@@ -1,0 +1,230 @@
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 40%;
+    top: 25%;
+    z-index: 1;
+    height: 400px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.text-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.btn-grp {
+    display: flex;
+    float: right;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.yes1 {
+    color: rgb(230, 57, 57);
+    font-size: 20px;
+    padding: 0px 13px;
+    border-radius: 10px;
+}
+
+.cancel1 {
+    color: rgb(39, 73, 226);
+    /* width: 100px; */
+    font-size: 20px;
+    padding: 0px 13px;
+    border-radius: 10px;
+}
+
+.text-field input {
+    width: 347px;
+    height: 42px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .modal-wraper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+
+    background-color: rgba(189, 189, 189, 0.9);
+}
+
+.modal-container {
+    position: fixed;
+    top: 40%;
+    bottom: 50%;
+    left: 35%;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 30rem;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    background-color: white;
+    border-radius: 20px;
+    height: 80px;
+    background-color: #0082e6;
+    ;
+
+}
+
+.praDelete {
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.cancel {
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(62, 93, 179);
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.yes {
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(193, 56, 79);
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    width: 40px;
+}
+
+
+.modal-wraper1 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(189, 189, 189, 0.9);
+}
+
+.modal-container1 {
+    position: fixed;
+    top: 40%;
+    bottom: 50%;
+    left: 35%;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 30rem;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 20px;
+    height: 80px;
+}
+
+
+
+.cancel1 {
+
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(62, 93, 179);
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.yes1 {
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(193, 56, 79);
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+    width: 60px;
+}
+
+.title {
+    margin: 5px;
+    width: 150px;
+}
+
+.price {
+    margin: 5px;
+    width: 150px;
+}
+
+.image-edit {
+    width: 150px;
+} */
